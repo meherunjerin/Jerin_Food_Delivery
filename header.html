@@ -19,6 +19,7 @@
            
         </div>
         
+       
         <nav class="flex space-x-8">
             <a href="#" class="text-lg text-black hover:text-orange-500">Home</a>
             <a href="#" class="text-lg text-black hover:text-orange-500">Cart</a>
@@ -32,7 +33,7 @@
 
     <!-- Main Content Section -->
     <main class="flex justify-between items-start mt-12 p-4">
-      
+        
         <div class="w-1/2 p-4">
             <img src="images/Bike Delivery.png" alt="Bike delivery" class="w-30 h-10">
             <br>
@@ -41,7 +42,7 @@
             <h1 class="text-6xl font-bold text-orange-500 mb-4">The Fastest <br>Delivery<br> in Your City</h1>
             <p class="text-lg mb-6">Order your favorite meals quickly and easily with our fast and reliable delivery service. Enjoy the best food in the city delivered straight to your door.</p>
             
-         
+            <!-- Buttons -->
             <div class="flex space-x-4">
                 <button class="bg-orange-500 text-white py-2 px-4 rounded-full shadow-lg">Order Now</button>
                 <img src="images/play.png" alt="play" class="w-20 h-20">
@@ -49,7 +50,7 @@
             </div>
         </div>
 
-       
+        <!-- Right Column: Food Images -->
         <div class="w-1/2 grid grid-cols-2 gap-4 p-4">
             <!-- Food Card 1 -->
             <div class="bg-white text-black rounded-lg shadow-lg p-4">
@@ -81,36 +82,46 @@
             </div>
         </div>
     </main>
-   
+
 <section class="flex justify-between items-center p-6 bg-white shadow-lg rounded-lg mt-8 mx-4">
-   
+    <!-- Working Time -->
     <div class="text-center">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="flex justify-center mb-2">
             <img src="images/time.png" alt="Working Time Icon" class="w-10 h-10">
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <p class="text-lg font-semibold">Today 10:00am - 10:00pm</p>
         <p class="text-gray-600">Working time</p>
     </div>
 
-  
+    
     <div class="w-px h-16 bg-gray-300"></div>
 
     <!-- Location -->
     <div class="text-center">
         <div class="flex justify-center mb-2">
-            <img src="images/location.png "  alt="Location Icon" class="w-20 h-20"  >
+            <img src="images/location-1.svg "  alt="Location Icon" class="w-50 h-50"  >
         </div>
         <p class="text-lg font-semibold">Bakalia,Chittagong</p>
         <p class="text-gray-600">Our Location</p>
     </div>
 
-   
+    
     <div class="w-px h-16 bg-gray-300"></div>
 
-    
+    <!-- Phone Number -->
     <div class="text-center">
         <div class="flex justify-center mb-2">
-            <img src="images/phone-icon.png" alt="Phone Icon" class="w-20 h-20">
+            <img src="images/contact.svg" alt="Phone Icon" class="w-50 h-50">
         </div>
         <p class="text-lg font-semibold">+88 01941751508</p>
         <p class="text-gray-600">Phone Number</p>
@@ -234,9 +245,9 @@
             </div>
             <button class="bg-orange-500 text-white py-2 px-4 rounded-full mt-4">Add To Cart</button>
         </div>
-       
+
     </div>
-    <!-- Buttons to toggle products -->
+    
     <div class="text-center mt-8">
         <button id="see-more-button" class="bg-orange-500 text-white py-2 px-6 rounded-full">See More Products</button>
         <button id="see-less-button" class="bg-gray-500 text-white py-2 px-6 rounded-full hidden">See Less</button>
@@ -258,7 +269,7 @@
                 Quality food is made from fresh, high-grade ingredients that are carefully selected and prepared to ensure excellent taste, nutrition, and safety. It meets high standards in flavor, texture, and presentation, providing a satisfying and healthy dining experience.
             </p>
         </div>
-        <!-- Service Card 2 -->
+        <!-- Service Card 2  -->
         <div class="bg-white text-black rounded-lg shadow-lg p-4 transform transition duration-300 hover:scale-105 hover:bg-orange-100 hover:shadow-2xl">
             <div class="flex justify-center mb-4">
                 <img src="images/2.svg" alt="Healthy Food Icon" class="w-full h-full">
@@ -286,7 +297,7 @@
     <h2 class="text-2xl font-semibold text-orange-500  mb-4 text-center">Testimonials</h2>
     <h2 class="text-3xl font-bold text-black mb-4 text-center">Our Happy Client Says</h2>
     <div class="flex flex-col md:flex-row items-center justify-between">
-        <!-- Testimonial Box -->
+        
         <div class="bg-white text-black rounded-lg shadow-lg p-8 w- md:w-2/3 relative">
             <div class="absolute left-0 top-1/2 transform -translate-y-1/2 ml-4">
                 <button class=" text-white rounded-full p-2 shadow-lg hover:bg-orange-600 focus:outline-none">
@@ -296,7 +307,7 @@
             </div>
             <div class="absolute right-0 top-1/2 transform -translate-y-1/2 mr-4">
                 <button class=" text-white rounded-full p-2 shadow-lg hover:bg-orange-600 focus:outline-none">
-                    <img src="images/right.png">
+                    <img src="/images/right.png">
                 </button>
             </div>
             <div class="flex flex-col items-center">
@@ -317,7 +328,7 @@
 
 
 
-<!-- JavaScript -->
+<!--  JavaScript -->
 <script>
     const seeMoreButton = document.getElementById('see-more-button');
     const seeLessButton = document.getElementById('see-less-button');
@@ -345,7 +356,7 @@
         <p class="text-gray-400 mb-4">
             Put a valid Email Address
         </p>
-        <!-- Success message hidden by default -->
+        
         <p id="success-message" class="text-green-500 font-bold mb-4 hidden">Subscription Successful!</p>
         
         <form id="subscribe-form" class="flex items-center justify-center md:justify-start">
@@ -358,7 +369,7 @@
     </div>
 </section>
 <script>
-
+    
     const form = document.getElementById('subscribe-form');
     const successMessage = document.getElementById('success-message');
     const emailInput = document.getElementById('email-input');
@@ -367,7 +378,7 @@
     form.addEventListener('submit', function(event) {
         event.preventDefault(); 
 
-       
+        
         if (emailInput.value !== '') {
             
             successMessage.classList.remove('hidden');
@@ -388,7 +399,7 @@
                To follow us on social media check the bellow section and see all exiting offer commings.
             </p>
             <br>
-            <img src="images/Social Icon.png">
+            <img src="/images/Social Icon.png">
             <div class="flex justify-center md:justify-start mt-4 space-x-4">
                 <a href="#" class="text-orange-500"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="text-orange-500"><i class="fab fa-twitter"></i></a>
@@ -397,7 +408,7 @@
             </div>
         </div>
         
-    
+        
         <div class="mb-8 md:mb-0 text-center md:text-left">
             <h4 class="text-lg font-semibold text-black mb-4">Opening Restaurant</h4>
             <ul class="text-gray-500 space-y-2">
@@ -422,7 +433,7 @@
         <!-- Contact Us -->
         <div class="text-center md:text-left">
             <h4 class="text-lg font-semibold text-black mb-4">Contact Us</h4>
-            <p class="text-gray-500 mb-2">Bakalia, Chittagong</p>
+            <p class="text-gray-500 mb-2">Bakalia,Chittagong</p>
             <p class="text-gray-500 mb-2">+88 01941751508</p>
             <p class="text-gray-500 mb-4">+88 01941751508</p>
             <form class="flex items-center justify-center md:justify-start">
@@ -439,6 +450,7 @@
 
 
 
+    
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
 </html>
