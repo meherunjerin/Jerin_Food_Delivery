@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Delivery</title>
-    <!-- Include Tailwind CSS -->
+  
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -19,7 +19,6 @@
            
         </div>
         
-        <!-- Navigation Links -->
         <nav class="flex space-x-8">
             <a href="#" class="text-lg text-black hover:text-orange-500">Home</a>
             <a href="#" class="text-lg text-black hover:text-orange-500">Cart</a>
@@ -33,7 +32,7 @@
 
     <!-- Main Content Section -->
     <main class="flex justify-between items-start mt-12 p-4">
-        <!-- Left Column: Text and Buttons -->
+      
         <div class="w-1/2 p-4">
             <img src="images/Bike Delivery.png" alt="Bike delivery" class="w-30 h-10">
             <br>
@@ -42,7 +41,7 @@
             <h1 class="text-6xl font-bold text-orange-500 mb-4">The Fastest <br>Delivery<br> in Your City</h1>
             <p class="text-lg mb-6">Order your favorite meals quickly and easily with our fast and reliable delivery service. Enjoy the best food in the city delivered straight to your door.</p>
             
-            <!-- Buttons -->
+         
             <div class="flex space-x-4">
                 <button class="bg-orange-500 text-white py-2 px-4 rounded-full shadow-lg">Order Now</button>
                 <img src="images/play.png" alt="play" class="w-20 h-20">
@@ -50,7 +49,7 @@
             </div>
         </div>
 
-        <!-- Right Column: Food Images -->
+       
         <div class="w-1/2 grid grid-cols-2 gap-4 p-4">
             <!-- Food Card 1 -->
             <div class="bg-white text-black rounded-lg shadow-lg p-4">
@@ -82,9 +81,9 @@
             </div>
         </div>
     </main>
-    <!-- New Section: Contact Information -->
+   
 <section class="flex justify-between items-center p-6 bg-white shadow-lg rounded-lg mt-8 mx-4">
-    <!-- Working Time -->
+   
     <div class="text-center">
         <div class="flex justify-center mb-2">
             <img src="images/time.png" alt="Working Time Icon" class="w-10 h-10">
@@ -93,7 +92,7 @@
         <p class="text-gray-600">Working time</p>
     </div>
 
-    <!-- Divider -->
+  
     <div class="w-px h-16 bg-gray-300"></div>
 
     <!-- Location -->
@@ -101,19 +100,19 @@
         <div class="flex justify-center mb-2">
             <img src="images/location.png "  alt="Location Icon" class="w-20 h-20"  >
         </div>
-        <p class="text-lg font-semibold">Mohammadpur, Dhaka</p>
+        <p class="text-lg font-semibold">Bakalia,Chittagong</p>
         <p class="text-gray-600">Our Location</p>
     </div>
 
-    <!-- Divider -->
+   
     <div class="w-px h-16 bg-gray-300"></div>
 
-    <!-- Phone Number -->
+    
     <div class="text-center">
         <div class="flex justify-center mb-2">
             <img src="images/phone-icon.png" alt="Phone Icon" class="w-20 h-20">
         </div>
-        <p class="text-lg font-semibold">+88 017 0000 0000</p>
+        <p class="text-lg font-semibold">+88 01941751508</p>
         <p class="text-gray-600">Phone Number</p>
     </div>
 </section>
@@ -235,7 +234,7 @@
             </div>
             <button class="bg-orange-500 text-white py-2 px-4 rounded-full mt-4">Add To Cart</button>
         </div>
-        <!-- Add more products as needed -->
+       
     </div>
     <!-- Buttons to toggle products -->
     <div class="text-center mt-8">
@@ -259,7 +258,7 @@
                 Quality food is made from fresh, high-grade ingredients that are carefully selected and prepared to ensure excellent taste, nutrition, and safety. It meets high standards in flavor, texture, and presentation, providing a satisfying and healthy dining experience.
             </p>
         </div>
-        <!-- Service Card 2 with Hover Effect -->
+        <!-- Service Card 2 -->
         <div class="bg-white text-black rounded-lg shadow-lg p-4 transform transition duration-300 hover:scale-105 hover:bg-orange-100 hover:shadow-2xl">
             <div class="flex justify-center mb-4">
                 <img src="images/2.svg" alt="Healthy Food Icon" class="w-full h-full">
@@ -309,7 +308,7 @@
                 </p>
             </div>
         </div>
-        <!-- Image Next to Testimonial -->
+        
         <div class="mt-8 md:mt-0 md:ml-8">
             <img src="images/pasta.jpg" alt="pasta" class="w-40 h-40">
         </div>
@@ -318,7 +317,7 @@
 
 
 
-<!-- Custom JavaScript -->
+<!-- JavaScript -->
 <script>
     const seeMoreButton = document.getElementById('see-more-button');
     const seeLessButton = document.getElementById('see-less-button');
@@ -359,22 +358,22 @@
     </div>
 </section>
 <script>
-    // Get the form element
+
     const form = document.getElementById('subscribe-form');
     const successMessage = document.getElementById('success-message');
     const emailInput = document.getElementById('email-input');
 
-    // Add event listener for form submission
+    
     form.addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent the form from submitting
+        event.preventDefault(); 
 
-        // Validate email input (optional, can add additional validation if needed)
+       
         if (emailInput.value !== '') {
-            // Show success message
+            
             successMessage.classList.remove('hidden');
             successMessage.classList.add('block');
 
-            // Optionally, clear the input field
+            
             emailInput.value = '';
         }
     });
@@ -382,7 +381,7 @@
 <!-- Footer Section -->
 <footer class="bg-gray-100 py-12">
     <div class="container mx-auto flex flex-col md:flex-row justify-between">
-        <!-- Logo and Social Media -->
+        
         <div class="mb-8 md:mb-0 text-center md:text-left">
             <img src="images/logo.png" alt="Logo" class="mx-auto md:mx-0 w-24 mb-4">
             <p class="text-gray-500 max-w-xs mx-auto md:mx-0">
@@ -398,7 +397,7 @@
             </div>
         </div>
         
-        <!-- Opening Restaurant Hours -->
+    
         <div class="mb-8 md:mb-0 text-center md:text-left">
             <h4 class="text-lg font-semibold text-black mb-4">Opening Restaurant</h4>
             <ul class="text-gray-500 space-y-2">
@@ -423,9 +422,9 @@
         <!-- Contact Us -->
         <div class="text-center md:text-left">
             <h4 class="text-lg font-semibold text-black mb-4">Contact Us</h4>
-            <p class="text-gray-500 mb-2">Mohammadpur, Dhaka</p>
-            <p class="text-gray-500 mb-2">+88 017 0000 0000</p>
-            <p class="text-gray-500 mb-4">+88 018 0000 0000</p>
+            <p class="text-gray-500 mb-2">Bakalia, Chittagong</p>
+            <p class="text-gray-500 mb-2">+88 01941751508</p>
+            <p class="text-gray-500 mb-4">+88 01941751508</p>
             <form class="flex items-center justify-center md:justify-start">
                 <input type="email" placeholder="Enter your email..." 
                        class="p-3 rounded-l-full bg-gray-200 text-gray-700 outline-none">
@@ -440,7 +439,6 @@
 
 
 
-    <!-- Include JavaScript for Tailwind (optional) -->
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
 </html>
